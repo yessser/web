@@ -10,6 +10,7 @@ public_folder: "/static/description"
 
 collections:
   - name: "modules"
+    title: "modules"
     label: "Modules"
     label_singular: "Module File"
     folder: "."
