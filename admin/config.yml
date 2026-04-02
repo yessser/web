@@ -22,6 +22,7 @@ collections:
     media_folder: "{{dirname}}/../static/description"
     public_folder: "../static/description"
     summary: "{{dirname}} / {{filename}}"
+    identifier_field: "filename"
     view_groups:
       - label: "Module"
         field: "dirname"
