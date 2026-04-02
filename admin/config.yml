@@ -22,9 +22,9 @@ collections:
     media_folder: "{{dirname}}/../static/img"
     # Images are referenced in markdown as ../static/img/image.png
     public_folder: "../static/img"
-    summary: "{{filename}}"
-    view_groups:
-      - label: "Module"
-        field: "dirname"
+    identifier_field: "title"
+    slug: "{{slug}}"
     fields:
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
