@@ -10,19 +10,19 @@ public_folder: "/static/description"
 
 collections:
   - name: "modules"
-    title: "modules"
     label: "Modules"
     label_singular: "Module File"
     folder: "."
     extension: "md"
     format: "raw"
-    create: true
+    create: false
     nested:
       depth: 3
-    media_folder: "{{dirname}}/../static/description"
-    public_folder: "../static/description"
-    summary: "{{dirname}} / {{filename}}"
-    identifier_field: "filename"
+    # Media is stored in <module>/static/img/
+    media_folder: "{{dirname}}/../static/img"
+    # Images are referenced in markdown as ../static/img/image.png
+    public_folder: "../static/img"
+    summary: "{{filename}}"
     view_groups:
       - label: "Module"
         field: "dirname"
