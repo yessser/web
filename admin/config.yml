@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: yessser/web
+  branch: 18.0
+  open_authoring: true
+publish_mode: editorial_workflow
+
+media_folder: "static/description"
+public_folder: "/static/description"
+
+collections:
+  - name: "modules"
+    label: "Modules"
+    label_singular: "Module File"
+    folder: "."
+    extension: "md"
+    format: "raw"
+    create: true
+    nested:
+      depth: 3
+    media_folder: "{{dirname}}/../static/description"
+    public_folder: "../static/description"
+    summary: "{{dirname}} / {{filename}}"
+    view_groups:
+      - label: "Module"
+        field: "dirname"
+    fields:
+      - {label: "Body", name: "body", widget: "markdown"}
