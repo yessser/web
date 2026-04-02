@@ -12,12 +12,13 @@ collections:
   - name: "modules"
     label: "Modules"
     label_singular: "Module File"
-    folder: "."
+    folder: "/"
+    filter: { field: "path", value: "^[^/]+/readme/.*\\.md$" }
     extension: "md"
-    format: "raw"
     create: false
     nested:
       depth: 3
+    summary: "{{filename}}"
     # Media is stored in <module>/static/img/
     media_folder: "{{dirname}}/../static/img"
     # Images are referenced in markdown as ../static/img/image.png
