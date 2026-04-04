@@ -5,12 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Content Manager</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <style>
+      #branch-switcher {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 9999;
+        background: white;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <div id="branch-switcher">
+      <label for="branch-select">Branch:</label>
+      <select id="branch-select" onchange="switchBranch(this.value)">
+        <!-- Branches will be populated here -->
+      </select>
+    </div>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      let currentBranch = urlParams.get('branch');
+      
+      // Fetch available branches
+      fetch('branches.json')
+        .then(response => {
+          if (!response.ok) throw new Error("branches.json not found. Run ./admin/update_config.sh");
+          return response.json();
+        })
+        .then(data => {
+          const branches = data.list;
+          const defaultBranch = data.default;
+          
+          if (!branches || branches.length === 0) {
+            throw new Error("No branches found in branches.json. Please run ./admin/update_config.sh");
+          }
+
+          const select = document.getElementById('branch-select');
+          if (!currentBranch) {
+            currentBranch = defaultBranch || branches[0];
+          }
+          
+          branches.forEach(branch => {
+            const option = document.createElement('option');
+            option.value = branch;
+            option.textContent = branch + (branch === defaultBranch ? ' (default)' : '');
+            if (branch === currentBranch) option.selected = true;
+            select.appendChild(option);
+          });
+
+          // Correct way to set custom config URL for Decap CMS
+          const configFilename = currentBranch.replace(/\//g, '-');
+          const configUrl = `config-${configFilename}.yml?cb=${Date.now()}`;
+          
+          const link = document.createElement('link');
+          link.href = configUrl;
+          link.type = "text/yaml";
+          link.rel = "cms-config-url";
+          document.head.appendChild(link);
+          
+          // Load Decap CMS after the link tag is in place
+          const script = document.createElement('script');
+          script.src = "https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js";
+          document.body.appendChild(script);
+        })
+        .catch(err => {
+          document.body.innerHTML = `<div style="color:red; font-family:sans-serif; padding:50px; text-align:center;">
+            <h1>Configuration Error</h1>
+            <p>${err.message}</p>
+          </div>`;
+          console.error(err);
+        });
+
+      function switchBranch(branch) {
+        window.location.href = `?branch=${branch}`;
+      }
+
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", (user) => {
           if (!user) {

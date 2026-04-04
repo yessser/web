@@ -1,8 +1,8 @@
-local_backend: true
+local_backend: false
 backend:
   name: github
   repo: yessser/web
-  branch: "18.0"
+  branch: "origin"
   open_authoring: true
 publish_mode: editorial_workflow
 

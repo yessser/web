@@ -1,8 +1,8 @@
-local_backend: true
+local_backend: false
 backend:
   name: github
   repo: yessser/web
-  branch: "18.0"
+  branch: "16.0"
   open_authoring: true
 publish_mode: editorial_workflow
 
@@ -10,6 +10,165 @@ media_folder: "static/description"
 public_folder: "/static/description"
 
 collections:
+  - name: "web_action_conditionable"
+    label: "web_action_conditionable"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_action_conditionable/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_action_conditionable/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_action_conditionable/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_action_conditionable/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_action_conditionable/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_action_conditionable/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_action_conditionable/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_action_conditionable/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_advanced_search"
+    label: "web_advanced_search"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_advanced_search/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_advanced_search/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_advanced_search/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_advanced_search/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_advanced_search/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_advanced_search/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_advanced_search/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_advanced_search/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_apply_field_style"
+    label: "web_apply_field_style"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_apply_field_style/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_apply_field_style/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_apply_field_style/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_apply_field_style/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_apply_field_style/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_apply_field_style/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_apply_field_style/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_apply_field_style/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_calendar_slot_duration"
     label: "web_calendar_slot_duration"
     media_folder: "../static/img"
@@ -275,6 +434,59 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_dashboard_tile"
+    label: "web_dashboard_tile"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_dashboard_tile/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_dashboard_tile/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_dashboard_tile/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_dashboard_tile/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_dashboard_tile/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_dashboard_tile/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_dashboard_tile/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_dashboard_tile/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_datetime_picker_default_time"
     label: "web_datetime_picker_default_time"
     media_folder: "../static/img"
@@ -434,6 +646,59 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_domain_field"
+    label: "web_domain_field"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_domain_field/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_domain_field/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_domain_field/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_domain_field/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_domain_field/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_domain_field/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_domain_field/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_domain_field/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_editor_class_selector"
     label: "web_editor_class_selector"
     media_folder: "../static/img"
@@ -484,59 +749,6 @@ collections:
       - name: "contributors"
         label: "CONTRIBUTORS.md"
         file: "web_editor_class_selector/readme/CONTRIBUTORS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_editor_disable_chatgpt"
-    label: "web_editor_disable_chatgpt"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
-    files:
-      - name: "description"
-        label: "DESCRIPTION.md"
-        file: "web_editor_disable_chatgpt/readme/DESCRIPTION.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "install"
-        label: "INSTALL.md"
-        file: "web_editor_disable_chatgpt/readme/INSTALL.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "context"
-        label: "CONTEXT.md"
-        file: "web_editor_disable_chatgpt/readme/CONTEXT.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "configure"
-        label: "CONFIGURE.md"
-        file: "web_editor_disable_chatgpt/readme/CONFIGURE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "usage"
-        label: "USAGE.md"
-        file: "web_editor_disable_chatgpt/readme/USAGE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "roadmap"
-        label: "ROADMAP.md"
-        file: "web_editor_disable_chatgpt/readme/ROADMAP.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "credits"
-        label: "CREDITS.md"
-        file: "web_editor_disable_chatgpt/readme/CREDITS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "contributors"
-        label: "CONTRIBUTORS.md"
-        file: "web_editor_disable_chatgpt/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -593,109 +805,56 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_excel_export_dynamic_expand"
-    label: "web_excel_export_dynamic_expand"
+  - name: "web_field_numeric_formatting"
+    label: "web_field_numeric_formatting"
     media_folder: "../static/img"
     public_folder: "../static/img"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
-        file: "web_excel_export_dynamic_expand/readme/DESCRIPTION.md"
+        file: "web_field_numeric_formatting/readme/DESCRIPTION.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "install"
         label: "INSTALL.md"
-        file: "web_excel_export_dynamic_expand/readme/INSTALL.md"
+        file: "web_field_numeric_formatting/readme/INSTALL.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "context"
         label: "CONTEXT.md"
-        file: "web_excel_export_dynamic_expand/readme/CONTEXT.md"
+        file: "web_field_numeric_formatting/readme/CONTEXT.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "configure"
         label: "CONFIGURE.md"
-        file: "web_excel_export_dynamic_expand/readme/CONFIGURE.md"
+        file: "web_field_numeric_formatting/readme/CONFIGURE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "usage"
         label: "USAGE.md"
-        file: "web_excel_export_dynamic_expand/readme/USAGE.md"
+        file: "web_field_numeric_formatting/readme/USAGE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap"
         label: "ROADMAP.md"
-        file: "web_excel_export_dynamic_expand/readme/ROADMAP.md"
+        file: "web_field_numeric_formatting/readme/ROADMAP.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "credits"
         label: "CREDITS.md"
-        file: "web_excel_export_dynamic_expand/readme/CREDITS.md"
+        file: "web_field_numeric_formatting/readme/CREDITS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "contributors"
         label: "CONTRIBUTORS.md"
-        file: "web_excel_export_dynamic_expand/readme/CONTRIBUTORS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_favicon"
-    label: "web_favicon"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
-    files:
-      - name: "description"
-        label: "DESCRIPTION.md"
-        file: "web_favicon/readme/DESCRIPTION.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "install"
-        label: "INSTALL.md"
-        file: "web_favicon/readme/INSTALL.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "context"
-        label: "CONTEXT.md"
-        file: "web_favicon/readme/CONTEXT.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "configure"
-        label: "CONFIGURE.md"
-        file: "web_favicon/readme/CONFIGURE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "usage"
-        label: "USAGE.md"
-        file: "web_favicon/readme/USAGE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "roadmap"
-        label: "ROADMAP.md"
-        file: "web_favicon/readme/ROADMAP.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "credits"
-        label: "CREDITS.md"
-        file: "web_favicon/readme/CREDITS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "contributors"
-        label: "CONTRIBUTORS.md"
-        file: "web_favicon/readme/CONTRIBUTORS.md"
+        file: "web_field_numeric_formatting/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -752,112 +911,6 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_filter_header_button"
-    label: "web_filter_header_button"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
-    files:
-      - name: "description"
-        label: "DESCRIPTION.md"
-        file: "web_filter_header_button/readme/DESCRIPTION.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "install"
-        label: "INSTALL.md"
-        file: "web_filter_header_button/readme/INSTALL.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "context"
-        label: "CONTEXT.md"
-        file: "web_filter_header_button/readme/CONTEXT.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "configure"
-        label: "CONFIGURE.md"
-        file: "web_filter_header_button/readme/CONFIGURE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "usage"
-        label: "USAGE.md"
-        file: "web_filter_header_button/readme/USAGE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "roadmap"
-        label: "ROADMAP.md"
-        file: "web_filter_header_button/readme/ROADMAP.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "credits"
-        label: "CREDITS.md"
-        file: "web_filter_header_button/readme/CREDITS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "contributors"
-        label: "CONTRIBUTORS.md"
-        file: "web_filter_header_button/readme/CONTRIBUTORS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_form_banner"
-    label: "web_form_banner"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
-    files:
-      - name: "description"
-        label: "DESCRIPTION.md"
-        file: "web_form_banner/readme/DESCRIPTION.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "install"
-        label: "INSTALL.md"
-        file: "web_form_banner/readme/INSTALL.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "context"
-        label: "CONTEXT.md"
-        file: "web_form_banner/readme/CONTEXT.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "configure"
-        label: "CONFIGURE.md"
-        file: "web_form_banner/readme/CONFIGURE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "usage"
-        label: "USAGE.md"
-        file: "web_form_banner/readme/USAGE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "roadmap"
-        label: "ROADMAP.md"
-        file: "web_form_banner/readme/ROADMAP.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "credits"
-        label: "CREDITS.md"
-        file: "web_form_banner/readme/CREDITS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "contributors"
-        label: "CONTRIBUTORS.md"
-        file: "web_form_banner/readme/CONTRIBUTORS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_group_expand"
     label: "web_group_expand"
     media_folder: "../static/img"
@@ -908,6 +961,112 @@ collections:
       - name: "contributors"
         label: "CONTRIBUTORS.md"
         file: "web_group_expand/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_help"
+    label: "web_help"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_help/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_help/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_help/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_help/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_help/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_help/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_help/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_help/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_hide_field_with_key"
+    label: "web_hide_field_with_key"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_hide_field_with_key/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_hide_field_with_key/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_hide_field_with_key/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_hide_field_with_key/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_hide_field_with_key/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_hide_field_with_key/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_hide_field_with_key/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_hide_field_with_key/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -1014,6 +1173,165 @@ collections:
       - name: "contributors"
         label: "CONTRIBUTORS.md"
         file: "web_ir_actions_act_window_message/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_ir_actions_act_window_page"
+    label: "web_ir_actions_act_window_page"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_ir_actions_act_window_page/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_ir_actions_act_window_page/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_ir_actions_act_window_page/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_ir_actions_act_window_page/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_ir_actions_act_window_page/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_ir_actions_act_window_page/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_ir_actions_act_window_page/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_ir_actions_act_window_page/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_ir_actions_close_wizard_refresh_view"
+    label: "web_ir_actions_close_wizard_refresh_view"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_ir_actions_close_wizard_refresh_view/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_ir_actions_close_wizard_refresh_view/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_ir_actions_close_wizard_refresh_view/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_ir_actions_close_wizard_refresh_view/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_ir_actions_close_wizard_refresh_view/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_ir_actions_close_wizard_refresh_view/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_ir_actions_close_wizard_refresh_view/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_ir_actions_close_wizard_refresh_view/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_listview_range_select"
+    label: "web_listview_range_select"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_listview_range_select/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_listview_range_select/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_listview_range_select/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_listview_range_select/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_listview_range_select/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_listview_range_select/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_listview_range_select/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_listview_range_select/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -1388,56 +1706,56 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_pwa_customize"
-    label: "web_pwa_customize"
+  - name: "web_pwa_oca"
+    label: "web_pwa_oca"
     media_folder: "../static/img"
     public_folder: "../static/img"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
-        file: "web_pwa_customize/readme/DESCRIPTION.md"
+        file: "web_pwa_oca/readme/DESCRIPTION.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "install"
         label: "INSTALL.md"
-        file: "web_pwa_customize/readme/INSTALL.md"
+        file: "web_pwa_oca/readme/INSTALL.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "context"
         label: "CONTEXT.md"
-        file: "web_pwa_customize/readme/CONTEXT.md"
+        file: "web_pwa_oca/readme/CONTEXT.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "configure"
         label: "CONFIGURE.md"
-        file: "web_pwa_customize/readme/CONFIGURE.md"
+        file: "web_pwa_oca/readme/CONFIGURE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "usage"
         label: "USAGE.md"
-        file: "web_pwa_customize/readme/USAGE.md"
+        file: "web_pwa_oca/readme/USAGE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap"
         label: "ROADMAP.md"
-        file: "web_pwa_customize/readme/ROADMAP.md"
+        file: "web_pwa_oca/readme/ROADMAP.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "credits"
         label: "CREDITS.md"
-        file: "web_pwa_customize/readme/CREDITS.md"
+        file: "web_pwa_oca/readme/CREDITS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "contributors"
         label: "CONTRIBUTORS.md"
-        file: "web_pwa_customize/readme/CONTRIBUTORS.md"
+        file: "web_pwa_oca/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -1759,6 +2077,59 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_select_all_companies"
+    label: "web_select_all_companies"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_select_all_companies/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_select_all_companies/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_select_all_companies/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_select_all_companies/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_select_all_companies/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_select_all_companies/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_select_all_companies/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_select_all_companies/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_send_message_popup"
     label: "web_send_message_popup"
     media_folder: "../static/img"
@@ -1812,109 +2183,56 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_session_auto_close"
-    label: "web_session_auto_close"
+  - name: "web_sheet_full_width"
+    label: "web_sheet_full_width"
     media_folder: "../static/img"
     public_folder: "../static/img"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
-        file: "web_session_auto_close/readme/DESCRIPTION.md"
+        file: "web_sheet_full_width/readme/DESCRIPTION.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "install"
         label: "INSTALL.md"
-        file: "web_session_auto_close/readme/INSTALL.md"
+        file: "web_sheet_full_width/readme/INSTALL.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "context"
         label: "CONTEXT.md"
-        file: "web_session_auto_close/readme/CONTEXT.md"
+        file: "web_sheet_full_width/readme/CONTEXT.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "configure"
         label: "CONFIGURE.md"
-        file: "web_session_auto_close/readme/CONFIGURE.md"
+        file: "web_sheet_full_width/readme/CONFIGURE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "usage"
         label: "USAGE.md"
-        file: "web_session_auto_close/readme/USAGE.md"
+        file: "web_sheet_full_width/readme/USAGE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap"
         label: "ROADMAP.md"
-        file: "web_session_auto_close/readme/ROADMAP.md"
+        file: "web_sheet_full_width/readme/ROADMAP.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "credits"
         label: "CREDITS.md"
-        file: "web_session_auto_close/readme/CREDITS.md"
+        file: "web_sheet_full_width/readme/CREDITS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "contributors"
         label: "CONTRIBUTORS.md"
-        file: "web_session_auto_close/readme/CONTRIBUTORS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_sort_menu"
-    label: "web_sort_menu"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
-    files:
-      - name: "description"
-        label: "DESCRIPTION.md"
-        file: "web_sort_menu/readme/DESCRIPTION.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "install"
-        label: "INSTALL.md"
-        file: "web_sort_menu/readme/INSTALL.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "context"
-        label: "CONTEXT.md"
-        file: "web_sort_menu/readme/CONTEXT.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "configure"
-        label: "CONFIGURE.md"
-        file: "web_sort_menu/readme/CONFIGURE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "usage"
-        label: "USAGE.md"
-        file: "web_sort_menu/readme/USAGE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "roadmap"
-        label: "ROADMAP.md"
-        file: "web_sort_menu/readme/ROADMAP.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "credits"
-        label: "CREDITS.md"
-        file: "web_sort_menu/readme/CREDITS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "contributors"
-        label: "CONTRIBUTORS.md"
-        file: "web_sort_menu/readme/CONTRIBUTORS.md"
+        file: "web_sheet_full_width/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -2130,59 +2448,6 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_toggle_chatter"
-    label: "web_toggle_chatter"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
-    files:
-      - name: "description"
-        label: "DESCRIPTION.md"
-        file: "web_toggle_chatter/readme/DESCRIPTION.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "install"
-        label: "INSTALL.md"
-        file: "web_toggle_chatter/readme/INSTALL.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "context"
-        label: "CONTEXT.md"
-        file: "web_toggle_chatter/readme/CONTEXT.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "configure"
-        label: "CONFIGURE.md"
-        file: "web_toggle_chatter/readme/CONFIGURE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "usage"
-        label: "USAGE.md"
-        file: "web_toggle_chatter/readme/USAGE.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "roadmap"
-        label: "ROADMAP.md"
-        file: "web_toggle_chatter/readme/ROADMAP.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "credits"
-        label: "CREDITS.md"
-        file: "web_toggle_chatter/readme/CREDITS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "contributors"
-        label: "CONTRIBUTORS.md"
-        file: "web_toggle_chatter/readme/CONTRIBUTORS.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false }
-          - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_touchscreen"
     label: "web_touchscreen"
     media_folder: "../static/img"
@@ -2236,56 +2501,56 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_tree_column_keyboard_resize"
-    label: "web_tree_column_keyboard_resize"
+  - name: "web_tree_duplicate"
+    label: "web_tree_duplicate"
     media_folder: "../static/img"
     public_folder: "../static/img"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
-        file: "web_tree_column_keyboard_resize/readme/DESCRIPTION.md"
+        file: "web_tree_duplicate/readme/DESCRIPTION.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "install"
         label: "INSTALL.md"
-        file: "web_tree_column_keyboard_resize/readme/INSTALL.md"
+        file: "web_tree_duplicate/readme/INSTALL.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "context"
         label: "CONTEXT.md"
-        file: "web_tree_column_keyboard_resize/readme/CONTEXT.md"
+        file: "web_tree_duplicate/readme/CONTEXT.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "configure"
         label: "CONFIGURE.md"
-        file: "web_tree_column_keyboard_resize/readme/CONFIGURE.md"
+        file: "web_tree_duplicate/readme/CONFIGURE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "usage"
         label: "USAGE.md"
-        file: "web_tree_column_keyboard_resize/readme/USAGE.md"
+        file: "web_tree_duplicate/readme/USAGE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap"
         label: "ROADMAP.md"
-        file: "web_tree_column_keyboard_resize/readme/ROADMAP.md"
+        file: "web_tree_duplicate/readme/ROADMAP.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "credits"
         label: "CREDITS.md"
-        file: "web_tree_column_keyboard_resize/readme/CREDITS.md"
+        file: "web_tree_duplicate/readme/CREDITS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "contributors"
         label: "CONTRIBUTORS.md"
-        file: "web_tree_column_keyboard_resize/readme/CONTRIBUTORS.md"
+        file: "web_tree_duplicate/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -2448,6 +2713,112 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_widget_char_size"
+    label: "web_widget_char_size"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_widget_char_size/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_widget_char_size/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_widget_char_size/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_widget_char_size/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_widget_char_size/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_widget_char_size/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_widget_char_size/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_widget_char_size/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_widget_datepicker_fulloptions"
+    label: "web_widget_datepicker_fulloptions"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_widget_datepicker_fulloptions/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_widget_datepicker_fulloptions/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_widget_datepicker_fulloptions/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_widget_datepicker_fulloptions/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_widget_datepicker_fulloptions/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_widget_datepicker_fulloptions/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_widget_datepicker_fulloptions/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_widget_datepicker_fulloptions/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_widget_domain_editor_dialog"
     label: "web_widget_domain_editor_dialog"
     media_folder: "../static/img"
@@ -2551,6 +2922,112 @@ collections:
       - name: "contributors"
         label: "CONTRIBUTORS.md"
         file: "web_widget_dropdown_dynamic/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_widget_image_download"
+    label: "web_widget_image_download"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_widget_image_download/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_widget_image_download/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_widget_image_download/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_widget_image_download/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_widget_image_download/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_widget_image_download/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_widget_image_download/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_widget_image_download/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_widget_image_webcam"
+    label: "web_widget_image_webcam"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_widget_image_webcam/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_widget_image_webcam/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_widget_image_webcam/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_widget_image_webcam/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_widget_image_webcam/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_widget_image_webcam/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_widget_image_webcam/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_widget_image_webcam/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
@@ -2766,215 +3243,321 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_widget_popover"
-    label: "web_widget_popover"
+  - name: "web_widget_pattern"
+    label: "web_widget_pattern"
     media_folder: "../static/img"
     public_folder: "../static/img"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
-        file: "web_widget_popover/readme/DESCRIPTION.md"
+        file: "web_widget_pattern/readme/DESCRIPTION.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "install"
         label: "INSTALL.md"
-        file: "web_widget_popover/readme/INSTALL.md"
+        file: "web_widget_pattern/readme/INSTALL.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "context"
         label: "CONTEXT.md"
-        file: "web_widget_popover/readme/CONTEXT.md"
+        file: "web_widget_pattern/readme/CONTEXT.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "configure"
         label: "CONFIGURE.md"
-        file: "web_widget_popover/readme/CONFIGURE.md"
+        file: "web_widget_pattern/readme/CONFIGURE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "usage"
         label: "USAGE.md"
-        file: "web_widget_popover/readme/USAGE.md"
+        file: "web_widget_pattern/readme/USAGE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap"
         label: "ROADMAP.md"
-        file: "web_widget_popover/readme/ROADMAP.md"
+        file: "web_widget_pattern/readme/ROADMAP.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "credits"
         label: "CREDITS.md"
-        file: "web_widget_popover/readme/CREDITS.md"
+        file: "web_widget_pattern/readme/CREDITS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "contributors"
         label: "CONTRIBUTORS.md"
-        file: "web_widget_popover/readme/CONTRIBUTORS.md"
+        file: "web_widget_pattern/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_widget_product_label_section_and_note_full_label"
-    label: "web_widget_product_label_section_and_note_full_label"
+  - name: "web_widget_pattern_partner_autocomplete"
+    label: "web_widget_pattern_partner_autocomplete"
     media_folder: "../static/img"
     public_folder: "../static/img"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
-        file: "web_widget_product_label_section_and_note_full_label/readme/DESCRIPTION.md"
+        file: "web_widget_pattern_partner_autocomplete/readme/DESCRIPTION.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "install"
         label: "INSTALL.md"
-        file: "web_widget_product_label_section_and_note_full_label/readme/INSTALL.md"
+        file: "web_widget_pattern_partner_autocomplete/readme/INSTALL.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "context"
         label: "CONTEXT.md"
-        file: "web_widget_product_label_section_and_note_full_label/readme/CONTEXT.md"
+        file: "web_widget_pattern_partner_autocomplete/readme/CONTEXT.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "configure"
         label: "CONFIGURE.md"
-        file: "web_widget_product_label_section_and_note_full_label/readme/CONFIGURE.md"
+        file: "web_widget_pattern_partner_autocomplete/readme/CONFIGURE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "usage"
         label: "USAGE.md"
-        file: "web_widget_product_label_section_and_note_full_label/readme/USAGE.md"
+        file: "web_widget_pattern_partner_autocomplete/readme/USAGE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap"
         label: "ROADMAP.md"
-        file: "web_widget_product_label_section_and_note_full_label/readme/ROADMAP.md"
+        file: "web_widget_pattern_partner_autocomplete/readme/ROADMAP.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "credits"
         label: "CREDITS.md"
-        file: "web_widget_product_label_section_and_note_full_label/readme/CREDITS.md"
+        file: "web_widget_pattern_partner_autocomplete/readme/CREDITS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "contributors"
         label: "CONTRIBUTORS.md"
-        file: "web_widget_product_label_section_and_note_full_label/readme/CONTRIBUTORS.md"
+        file: "web_widget_pattern_partner_autocomplete/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_widget_product_label_section_and_note_name_visibility"
-    label: "web_widget_product_label_section_and_note_name_visibility"
+  - name: "web_widget_plotly_chart"
+    label: "web_widget_plotly_chart"
     media_folder: "../static/img"
     public_folder: "../static/img"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
-        file: "web_widget_product_label_section_and_note_name_visibility/readme/DESCRIPTION.md"
+        file: "web_widget_plotly_chart/readme/DESCRIPTION.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "install"
         label: "INSTALL.md"
-        file: "web_widget_product_label_section_and_note_name_visibility/readme/INSTALL.md"
+        file: "web_widget_plotly_chart/readme/INSTALL.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "context"
         label: "CONTEXT.md"
-        file: "web_widget_product_label_section_and_note_name_visibility/readme/CONTEXT.md"
+        file: "web_widget_plotly_chart/readme/CONTEXT.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "configure"
         label: "CONFIGURE.md"
-        file: "web_widget_product_label_section_and_note_name_visibility/readme/CONFIGURE.md"
+        file: "web_widget_plotly_chart/readme/CONFIGURE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "usage"
         label: "USAGE.md"
-        file: "web_widget_product_label_section_and_note_name_visibility/readme/USAGE.md"
+        file: "web_widget_plotly_chart/readme/USAGE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap"
         label: "ROADMAP.md"
-        file: "web_widget_product_label_section_and_note_name_visibility/readme/ROADMAP.md"
+        file: "web_widget_plotly_chart/readme/ROADMAP.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "credits"
         label: "CREDITS.md"
-        file: "web_widget_product_label_section_and_note_name_visibility/readme/CREDITS.md"
+        file: "web_widget_plotly_chart/readme/CREDITS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "contributors"
         label: "CONTRIBUTORS.md"
-        file: "web_widget_product_label_section_and_note_name_visibility/readme/CONTRIBUTORS.md"
+        file: "web_widget_plotly_chart/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "web_widget_url_advanced"
-    label: "web_widget_url_advanced"
+  - name: "web_widget_product_label_section_and_note"
+    label: "web_widget_product_label_section_and_note"
     media_folder: "../static/img"
     public_folder: "../static/img"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
-        file: "web_widget_url_advanced/readme/DESCRIPTION.md"
+        file: "web_widget_product_label_section_and_note/readme/DESCRIPTION.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "install"
         label: "INSTALL.md"
-        file: "web_widget_url_advanced/readme/INSTALL.md"
+        file: "web_widget_product_label_section_and_note/readme/INSTALL.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "context"
         label: "CONTEXT.md"
-        file: "web_widget_url_advanced/readme/CONTEXT.md"
+        file: "web_widget_product_label_section_and_note/readme/CONTEXT.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "configure"
         label: "CONFIGURE.md"
-        file: "web_widget_url_advanced/readme/CONFIGURE.md"
+        file: "web_widget_product_label_section_and_note/readme/CONFIGURE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "usage"
         label: "USAGE.md"
-        file: "web_widget_url_advanced/readme/USAGE.md"
+        file: "web_widget_product_label_section_and_note/readme/USAGE.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap"
         label: "ROADMAP.md"
-        file: "web_widget_url_advanced/readme/ROADMAP.md"
+        file: "web_widget_product_label_section_and_note/readme/ROADMAP.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "credits"
         label: "CREDITS.md"
-        file: "web_widget_url_advanced/readme/CREDITS.md"
+        file: "web_widget_product_label_section_and_note/readme/CREDITS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "contributors"
         label: "CONTRIBUTORS.md"
-        file: "web_widget_url_advanced/readme/CONTRIBUTORS.md"
+        file: "web_widget_product_label_section_and_note/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_widget_progressbar_gradient"
+    label: "web_widget_progressbar_gradient"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_widget_progressbar_gradient/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_widget_progressbar_gradient/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_widget_progressbar_gradient/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_widget_progressbar_gradient/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_widget_progressbar_gradient/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_widget_progressbar_gradient/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_widget_progressbar_gradient/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_widget_progressbar_gradient/readme/CONTRIBUTORS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "web_widget_remaining_days_exact_date"
+    label: "web_widget_remaining_days_exact_date"
+    media_folder: "../static/img"
+    public_folder: "../static/img"
+    files:
+      - name: "description"
+        label: "DESCRIPTION.md"
+        file: "web_widget_remaining_days_exact_date/readme/DESCRIPTION.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "install"
+        label: "INSTALL.md"
+        file: "web_widget_remaining_days_exact_date/readme/INSTALL.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "context"
+        label: "CONTEXT.md"
+        file: "web_widget_remaining_days_exact_date/readme/CONTEXT.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "configure"
+        label: "CONFIGURE.md"
+        file: "web_widget_remaining_days_exact_date/readme/CONFIGURE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "usage"
+        label: "USAGE.md"
+        file: "web_widget_remaining_days_exact_date/readme/USAGE.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap"
+        label: "ROADMAP.md"
+        file: "web_widget_remaining_days_exact_date/readme/ROADMAP.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "credits"
+        label: "CREDITS.md"
+        file: "web_widget_remaining_days_exact_date/readme/CREDITS.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contributors"
+        label: "CONTRIBUTORS.md"
+        file: "web_widget_remaining_days_exact_date/readme/CONTRIBUTORS.md"
         fields:
           - { label: "Title", name: "title", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
