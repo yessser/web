@@ -12,8 +12,8 @@ public_folder: "/static/description"
 collections:
   - name: "support_branding"
     label: "support_branding"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -65,8 +65,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_advanced_filters"
     label: "web_advanced_filters"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -118,8 +118,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_advanced_search_wildcard"
     label: "web_advanced_search_wildcard"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -171,8 +171,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_advanced_search_x2x"
     label: "web_advanced_search_x2x"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -224,8 +224,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_ckeditor4"
     label: "web_ckeditor4"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -277,8 +277,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_color"
     label: "web_color"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -330,8 +330,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_compute_domain_x2many"
     label: "web_compute_domain_x2many"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -383,8 +383,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_confirm_window_close"
     label: "web_confirm_window_close"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -436,8 +436,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_dashboard_tile"
     label: "web_dashboard_tile"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -489,8 +489,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_duplicate_visibility"
     label: "web_duplicate_visibility"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -542,8 +542,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_easy_switch_company"
     label: "web_easy_switch_company"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -595,8 +595,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_export_view"
     label: "web_export_view"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -648,8 +648,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_ir_actions_act_window_page"
     label: "web_ir_actions_act_window_page"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -701,8 +701,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_lib_moment"
     label: "web_lib_moment"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -754,8 +754,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_list_html_widget"
     label: "web_list_html_widget"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -807,8 +807,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_listview_custom_element_number"
     label: "web_listview_custom_element_number"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -860,8 +860,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_m2x_options"
     label: "web_m2x_options"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -913,8 +913,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_nocreatedb"
     label: "web_nocreatedb"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -966,8 +966,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_note"
     label: "web_note"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1019,8 +1019,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_note/web_note_test"
     label: "web_note/web_note_test"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1072,8 +1072,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_polymorphic_many2one"
     label: "web_polymorphic_many2one"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1125,8 +1125,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_popup_large"
     label: "web_popup_large"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1178,8 +1178,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_pytz"
     label: "web_pytz"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1231,8 +1231,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_readonly_bypass"
     label: "web_readonly_bypass"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1284,8 +1284,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_recipients_uncheck"
     label: "web_recipients_uncheck"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1337,8 +1337,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_relativedelta"
     label: "web_relativedelta"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1390,8 +1390,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_search_alphabetic"
     label: "web_search_alphabetic"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1443,8 +1443,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_send_message_popup"
     label: "web_send_message_popup"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1496,8 +1496,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_sheet_full_width"
     label: "web_sheet_full_width"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1549,8 +1549,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_translate_dialog"
     label: "web_translate_dialog"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1602,8 +1602,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_tree_many2one_clickable"
     label: "web_tree_many2one_clickable"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1655,8 +1655,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_warning_on_save"
     label: "web_warning_on_save"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1708,8 +1708,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_warning_sound"
     label: "web_warning_sound"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1761,8 +1761,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_widget_boolean_switch"
     label: "web_widget_boolean_switch"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1814,8 +1814,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_widget_color"
     label: "web_widget_color"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1867,8 +1867,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_widget_datepicker_options"
     label: "web_widget_datepicker_options"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1920,8 +1920,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_widget_fieldtext_options"
     label: "web_widget_fieldtext_options"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -1973,8 +1973,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_widget_float_formula"
     label: "web_widget_float_formula"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
@@ -2026,8 +2026,8 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
   - name: "web_widget_many2many_tags_multi_selection"
     label: "web_widget_many2many_tags_multi_selection"
-    media_folder: "../static/img"
-    public_folder: "../static/img"
+    media_folder: "../static/description"
+    public_folder: "../static/description"
     files:
       - name: "description"
         label: "DESCRIPTION.md"
