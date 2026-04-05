@@ -1,4 +1,4 @@
-local_backend: false
+local_backend: true
 backend:
   name: github
   repo: yessser/web

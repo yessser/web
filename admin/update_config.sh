@@ -29,9 +29,6 @@ generate_config() {
     fi
 
     local is_local="true"
-    if [ "$branch" != "$CURRENT_LOCAL_BRANCH" ]; then
-        is_local="false"
-    fi
 
     echo "Generating $output for branch $branch (Ref: $ref)..."
 
