@@ -13,6 +13,6 @@ default value):
 It can be added in actions defined on python or as
 `ir.actions.act_window` records.
 
-![edit action settings](../static/description/edit_action.png)
+![edit action settings](../static/description/ratwink.jpg)
 
 ![result](../static/description/calendar_result.png)
