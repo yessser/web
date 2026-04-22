@@ -1,3 +1,3 @@
-- Stefan Rijnhart \<stefan@opener.amsterdam\>
-- Robin Conjour \<rconjour@demolium.com\>
-- Dhara Solanki \<dhara.solanki@initos.com\>
+- Stefan Rijnhart &lt;stefan@opener.amsterdam&gt;
+- Robin Conjour &lt;rconjour@demolium.com&gt;
+- Dhara Solanki &lt;dhara.solanki@initos.com&gt;
