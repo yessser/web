@@ -1,0 +1,5 @@
+[build]
+  publish = "."
+
+# Decap CMS handles its own routing in the /admin folder.
+# No special SPA redirects are needed since the CMS is served from a subdirectory.
