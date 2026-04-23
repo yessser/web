@@ -1,4 +1,4 @@
-This module adds responsiveness to web backend.
+![](../static/description/1776967329295-recycle.jpg)This module adds responsiveness to web backend.
 
 **Features for all devices**:
 
