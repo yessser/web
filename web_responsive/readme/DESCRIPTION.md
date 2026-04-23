@@ -2,10 +2,9 @@ This module adds responsiveness to web backend.
 
 **Features for all devices**:
 
-- Redirect to the dashboard after logging in.
-Users will only be redirected to the home page after login
-if they have enabled the 'Redirect to Home' option in
-their profile settings.
+/fdsfdsfsdfdsfdsfs
+
+- Redirect to the dashboard after logging in. Users will only be redirected to the home page after login if they have enabled the 'Redirect to Home' option in their profile settings.
 
   ![image](../static/img/redirecthome.gif)
 
@@ -29,8 +28,7 @@ their profile settings.
 
   ![image](../static/img/listview.gif)
 
-**Features for mobile**: \* View type picker dropdown displays
-comfortably
+**Features for mobile**: \* View type picker dropdown displays comfortably
 
 - Control panel buttons use icons to save space.
 
@@ -44,11 +42,7 @@ comfortably
 
 **Features for desktop computers**:
 
-- Keyboard shortcuts for easier navigation, **using \`Alt + Shift +
-  \[NUM\]\`** combination instead of just Alt + \[NUM\] to avoid
-  conflict with Firefox Tab switching. Standard Odoo keyboard hotkeys
-  changed to be more intuitive or accessible by fingers of one hand.
-  F.x. Alt + S for Save
+- Keyboard shortcuts for easier navigation, **using \`Alt + Shift + \[NUM\]\`** combination instead of just Alt + \[NUM\] to avoid conflict with Firefox Tab switching. Standard Odoo keyboard hotkeys changed to be more intuitive or accessible by fingers of one hand. F.x. Alt + S for Save
 
   ![image](../static/img/shortcuts.gif)
 
@@ -56,14 +50,10 @@ comfortably
 
   ![image](../static/img/appsearch.gif)
 
-- When the chatter is on the side part, the document viewer fills that
-  part for side-by-side reading instead of full screen. You can still
-  put it on full width preview clicking on the new maximize button.
+- When the chatter is on the side part, the document viewer fills that part for side-by-side reading instead of full screen. You can still put it on full width preview clicking on the new maximize button.
 
   ![image](../static/img/document_viewer.gif)
 
-- When the user chooses to send a public message the color of the
-  composer is different from the one when the message is an internal
-  log.
+- When the user chooses to send a public message the color of the composer is different from the one when the message is an internal log.
 
   ![image](../static/img/chatter-colors.png)
