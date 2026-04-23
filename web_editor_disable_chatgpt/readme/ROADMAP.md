@@ -1,1 +1,1 @@
-* Remove ChatGPT capabilities from WYSIWYG editor.
+- Remove ChatGPT capabilities from WYSIWYG editor.

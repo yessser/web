@@ -1,2 +1,2 @@
 - [MetricWise](https://metricwise.com):
-  - Adam Heinz \<<adam.heinz@metricwise.com>\>
+  - Adam Heinz &lt;[adam.heinz@metricwise.com](mailto:adam.heinz@metricwise.com)&gt;
